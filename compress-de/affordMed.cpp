@@ -61,12 +61,12 @@ public:
 
 int main(){
 
-	fastIO
+	fastIO;
 	
-	string str = "abcbaba";
+	string str = "    abcbaba sas";
 
 	codex helper;
-	compressedData cmpStr = helper.compress(data);
+	compressedData cmpStr = helper.compress(str);
 	string ans = helper.decompress(cmpStr);
 
 	cout << ans;
